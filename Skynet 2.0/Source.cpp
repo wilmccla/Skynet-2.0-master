@@ -153,7 +153,7 @@ void theChoice() // adding a function to redo the loop if the player chooses to 
 	}
 	else if (playerChoice) // If they put in something else it will close
 	{
-		cout << "Illegal input, closing application" << endl; 
+		cout << "Illegal input, closing application" << endl;
 		system("Pause");
 		return;
 	}
